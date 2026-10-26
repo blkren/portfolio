@@ -2,7 +2,7 @@
 
 **Context:** Be Applied, an HR B2B SaaS start-up selling de-biased hiring software. A £600k ARR book of 80+ start-up, mid-market and enterprise accounts, many third-sector. Customers were HR teams, talent acquisition leads, founders and hiring managers.
 
-**Problem:** Customers were moving from CV screening to anonymised, skills-based hiring. That changes how a team hires, not just which tool it uses, so onboarding had to cover change management as well as setup.
+**Problem:** Customers were moving from CV screening to anonymised, skills-based hiring.
 
 **What I did:**
 

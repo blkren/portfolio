@@ -2,7 +2,7 @@
 
 **Context:** Be Applied, an HR B2B SaaS start-up selling de-biased hiring software. A £600k ARR book of 80+ start-up, mid-market and enterprise accounts, with 20% variable pay tied to a revenue target.
 
-**Problem:** Average health across my book was 6.5 out of 10. Accounts that relied on a single contact were exposed if that person left, and growth signals were easy to miss.
+**Problem:** Average health across my book was 6.5 out of 10.
 
 **What I did:**
 

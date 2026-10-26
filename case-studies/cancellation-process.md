@@ -1,8 +1,8 @@
 # Replacing email cancellations with an exit process
 
-**Context:** A UK professional services compliance business serving 3,000 schools and trusts. I joined shortly after it acquired a competitor, with no Customer Success function or reliable retention data. Buying runs through tenders, public budgets and trust boards.
+**Context:** A UK professional services compliance business serving 3,000 schools and trusts. I joined shortly after it acquired a competitor. Buying runs through tenders, public budgets and trust boards.
 
-**Problem:** Cancellations arrived by email, with no consistent data on why customers left.
+**Problem:** Customers cancelled by email, and there was no Customer Success function or reliable retention data.
 
 **What I did:**
 
