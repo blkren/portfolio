@@ -1,51 +1,41 @@
 # Build log
 
-## 26 October 2026: first build of the Juicebox application site
+## 2026-10-26: Build the Juicebox application site
 
-**Tool:** Claude Code (Opus 5.5) in VS Code
+**Built:** Root intro page, `/juicebox/` page (evidence table, three case studies, 90-day plan, contact), shared stylesheet, `.gitignore`, git repo and an empty public GitHub repo.
 
-### What was done
+**Prompt used:** [prompts/build-application-site.md](../prompts/build-application-site.md)
 
-1. **Read the inputs.** The Juicebox job advert, my CV and an evidence brief mapping each requirement in the advert to my evidence and results. No PDF CV was available, so the CV download link points to `assets/cv.pdf` as a placeholder.
-2. **Planned and drafted copy for approval.** Claude proposed a file structure and drafted the hero and the "Your advert, my evidence" table, then listed nine questions where the brief and CV disagreed or a fact was missing, instead of guessing.
-3. **Resolved the questions.** My answers corrected or clarified several facts (see "Prompts used" below).
-4. **Built the pages.** Plain HTML and one CSS file, no JavaScript, web fonts, cookies or tracking:
-   - `index.html`: two-line introduction linking to `/juicebox/`
-   - `juicebox/index.html`: hero, evidence table, three case studies, 90-day plan, how the site was built, contact
-   - `assets/styles.css`: mobile first, one teal accent, colours chosen for WCAG AA contrast; the evidence table turns into stacked cards on phones
-5. **Previewed locally** at `http://127.0.0.1:8000/`. Python was not available in the session, so a small PowerShell web server was used instead.
-6. **Checked the copy.** Confirmed no em or en dashes, case studies at 77, 101 and 66 words (limit 120), and checked every claim against the evidence brief. Two lines were softened as a result: "searches and outreach" became "searches" (the advert does not mention outreach), and "each prompt and decision is documented" became "the prompts and steps are documented".
-7. **Set up git and GitHub.** Created `.gitignore` (excludes `advert.md`, `cv.md`, `notes.md`), initialised the repository, made the first commit, and created an empty public repository at https://github.com/blkren/portfolio connected as `origin`. Nothing was pushed. `evidence-brief.md` was left out of the commit because it still contains figures I later corrected.
+**Decision:** [001](decisions/001-plain-html-css.md), [002](decisions/002-stacked-table-on-mobile.md)
 
-### Prompts used
+**What worked:** Claude asked nine questions before writing copy, which caught conflicts between my CV and the evidence brief.
 
-**Main prompt (summary).** Build a portfolio site for a Customer Success Manager application at Juicebox whose single job is to show, quickly and with evidence, why I match the advert. Rules: UK English, no em dashes, no hype words, frame achievements around customer and business outcomes, never invent or round up a number, no client names or confidential detail from my current employer (describe it as "a UK professional services compliance business serving 3,000 schools and trusts"). Specified the page structure, plain HTML and CSS, accessibility, and a workflow: plan and approve copy, build and preview, check claims, commit without pushing, write this log.
+**What I changed:** Corrected or clarified facts in my answers; Claude's claims check removed two lines that overstated the evidence.
 
-**Clarifying answers I gave:**
+**Time spent:** [fill in]
 
-- Name and contact details to show on the site, and a request to create the GitHub repository.
-- The two central government departments were among Be Applied's top five accounts.
-- 82% of cancellations have been processed through my new process over the last ten months, before it becomes the required process in new contract terms.
-- Databricks Genie One and Agent Bricks were added to the roadmap, not the Copilot Studio digital workforce.
-- My NRR target at Be Applied was 110%, and I averaged 122% across the year.
-- Elev8 Performance UK ran for six years, not seven.
-- Use "within eight weeks" for the at-risk client turnaround, to match my CV.
-- I am available to work on-site in London.
+## 2026-10-26: Claims check corrections
 
-### Follow-up: claims check answers
+**Built:** Corrected case studies 1 and 2 and the government accounts row; committed the corrected `evidence-brief.md` and my CV.
 
-Claude listed every claim on the page that the evidence brief did not directly support. My answers, applied to the page and to `evidence-brief.md`:
+**Prompt used:** Step 3 of the build prompt, now saved on its own as [prompts/claims-check.md](../prompts/claims-check.md)
 
-- Case study 1: the account was RAG rated red when I inherited it, and I had improved it to green ahead of renewal. The 22 hours a week and the webhook and API detail stay.
-- Case study 2: I joined shortly after my employer acquired a competitor.
-- Case study 3: planning renewals around decision-makers and budget cycles was my general approach, so it applies here.
-- The government departments were among Be Applied's top five accounts, not my personal top five.
-- Two other group businesses have adopted the cancellation process (not "adopting").
-- 20% variable pay, the 110% NRR target, "Agent Bricks", six years and on-site availability all confirmed.
+**Decision:** [003](decisions/003-publish-evidence-brief.md)
 
-`evidence-brief.md` is now corrected and committed.
+**What worked:** A list of every claim not directly backed by the brief, each with its source.
 
-### Still to do
+**What I changed:** Rejected two of Claude's rewrites that misread my answers (whose top five accounts, and which company was acquired).
 
-- Add `cv.pdf` to `assets/`.
-- Push to GitHub and publish the site.
+**Time spent:** [fill in]
+
+## 2026-10-26: Documentation structure
+
+**Built:** `README.md`, `CLAUDE.md`, documentation plan with templates, three case studies, three reusable prompts, three decision records; build log moved to the new template.
+
+**Prompt used:** [prompts/documentation-setup.md](../prompts/documentation-setup.md)
+
+**What worked:** [fill in]
+
+**What I changed:** [fill in]
+
+**Time spent:** [fill in]
