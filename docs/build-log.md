@@ -24,13 +24,26 @@
 **Clarifying answers I gave:**
 
 - Name and contact details to show on the site, and a request to create the GitHub repository.
-- The two central government departments were two of my top five accounts (two contracts, not four).
+- The two central government departments were among Be Applied's top five accounts.
 - 82% of cancellations have been processed through my new process over the last ten months, before it becomes the required process in new contract terms.
 - Databricks Genie One and Agent Bricks were added to the roadmap, not the Copilot Studio digital workforce.
 - My NRR target at Be Applied was 110%, and I averaged 122% across the year.
 - Elev8 Performance UK ran for six years, not seven.
 - Use "within eight weeks" for the at-risk client turnaround, to match my CV.
 - I am available to work on-site in London.
+
+### Follow-up: claims check answers
+
+Claude listed every claim on the page that the evidence brief did not directly support. My answers, applied to the page and to `evidence-brief.md`:
+
+- Case study 1: the account was RAG rated red when I inherited it, and I had improved it to green ahead of renewal. The 22 hours a week and the webhook and API detail stay.
+- Case study 2: I joined shortly after my employer acquired a competitor.
+- Case study 3: planning renewals around decision-makers and budget cycles was my general approach, so it applies here.
+- The government departments were among Be Applied's top five accounts, not my personal top five.
+- Two other group businesses have adopted the cancellation process (not "adopting").
+- 20% variable pay, the 110% NRR target, "Agent Bricks", six years and on-site availability all confirmed.
+
+`evidence-brief.md` is now corrected and committed.
 
 ### Still to do
 
